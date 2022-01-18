@@ -25,7 +25,7 @@ Out of the three models Random Forests performed best on the precision metric.
 Elastic Net: **“67.67%”**, Random Forests: **“69.50%”**, Gradient Boosted Trees: **“68.55%.”**
 
 ## Results/Discussions
-* Used Random Forest as final model and achieved the highest test set (held out dataset that only the professor has) predictive performance in class with **72% ** precision.
+* Used Random Forest as final model and achieved the highest test set (held out dataset that only the professor has) predictive performance in class with **72% precision**.
 * The reasoning behind choosing random forest as our model of choice is explained in the actual code. 
 * Using race as a predictor variable can be controversial.
 * Things like calibration plots are needed to further assess the "mathematical incompatbility" of fairness notions. 
