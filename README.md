@@ -13,7 +13,7 @@
 
 ## Model Building
 With a 80/20 split, I tried three different models:
-### Elastic Net: used optimal lambda within one standard deviation of the minimum lambda. 
+### * Elastic Net: Used optimal lambda within one standard deviation of the minimum lambda. 
 ![alt_text](https://github.com/grantjw/predict_recidivism_proj3/blob/main/loglamb.PNG) 
 * Random Forests with Out of Bag error using grid search. 
 ![alt_text](https://github.com/grantjw/predict_recidivism_proj3/blob/main/OOB.PNG)
