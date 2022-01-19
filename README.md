@@ -1,4 +1,4 @@
-# Predicting Recidivism :Overview
+# Predicting Recidivism: Overview
 * Full project code and explanation is available [here](https://github.com/grantjw/predict_recidivism_proj3/blob/main/pred_recid.pdf). You can also download the "pred_recid.html" file or use the [Rmarkdown file](https://github.com/grantjw/predict_recidivism_proj3/blob/main/pred_recid.Rmd) to try the code yourself.
 
 ## Project Goal
