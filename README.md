@@ -13,12 +13,9 @@
 
 ## Model Building
 With a 80/20 split, I tried three different models:
-### * Elastic Net: Used optimal lambda within one standard deviation of the minimum lambda. 
-![alt_text](https://github.com/grantjw/predict_recidivism_proj3/blob/main/loglamb.PNG) 
+* Elastic Net: Used optimal lambda within one standard deviation of the minimum lambda. 
 * Random Forests with Out of Bag error using grid search. 
-![alt_text](https://github.com/grantjw/predict_recidivism_proj3/blob/main/OOB.PNG)
 * Gradient Boosted Trees with Number of trees vs. cv.error using grid search. 
-![alt_text](https://github.com/grantjw/predict_recidivism_proj3/blob/main/n.trees.PNG)
 
 ## Metric
 * In choosing our metric, we deemded that the alogrithm’s priority should be to predict “recidivate” for only those who actually recidivates. We hope to reduce “false positives” while increasing “True Positives.” In other words, we ask “for what proportion does the algorithm say it will recidivate correctly”? Precision and FPR are seen as more important as they are more related to costs to defendants. The algorithm at least should not put defendants in jail who actually would not recidivate. In contrast, metrics such as FNR and Recall are more related to costs to society, as societies do not want defedants to recidivate in society. Although costs to society is important as well. The cost to defedants is argubly more important in our perspective.
